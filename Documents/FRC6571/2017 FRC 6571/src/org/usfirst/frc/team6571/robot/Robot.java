@@ -27,10 +27,10 @@ public class Robot extends IterativeRobot {
 	
 	Timer timer = new Timer();
 	
-	Victor FLmotor = new Victor(0);
-	Victor BLmotor = new Victor(1);
-	Victor FRmotor = new Victor(2);
-	Victor BRmotor = new Victor(3);
+	Victor FLmotor = new Victor(0); // Front left drive motor
+	Victor BLmotor = new Victor(1); // Back left drive motor
+	Victor FRmotor = new Victor(2); // Front right drive motor
+	Victor BRmotor = new Victor(3); // Back right drive motor
 	
 	Victor motor = new Victor(4);
 	
@@ -42,8 +42,6 @@ public class Robot extends IterativeRobot {
 	DigitalInput limitdown = new DigitalInput(1);
 	
 	
-	
-
 	/**
 	 * This function is run when the robot is first started up and should be
 	 * used for any initialization code.
